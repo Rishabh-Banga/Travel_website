@@ -202,9 +202,11 @@ color: #ffffff;
    font-family: 'Dawning of a New Day', cursive;
    font-size: 30px;
    height: 80px;
+   width: 500px;
    margin: 20px;
    margin-top: 40px;
    margin-left: 300px;
+   margin-right: 200px;
 }
 #reviews .tab-head {
    font-size: 17px;
