@@ -1,0 +1,267 @@
+/* index.css  */
+.affix {
+padding:0px;
+-webkit-transition:padding 0.2s linear;
+-moz-transition:padding 0.2s linear;
+-o-transition:padding 0.2s linear;
+transition:padding 0.2s linear;
+
+}
+
+.affix-top {
+padding-top:17px;
+padding-bottom:18px;
+-webkit-transition:padding 0.5s linear;
+-moz-transition:padding 0.5s linear;
+-o-transition:padding 0.5s linear;
+transition:padding 0.5s linear;
+}
+
+.glyph-wrap {
+border: 1px solid #000;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+}
+
+.glyphicon-chevron-down {
+padding-top: 17px;
+padding-left: 2px;
+}
+
+.btn {
+background: transparent;
+}
+.btn-down {
+background: transparent;
+}
+
+
+.navbar {
+background: transparent;
+animation: pulse 5s;
+font-size: 14px;
+font-family: 'Megrim', cursive;
+}
+
+.navbar-default .navbar-nav {
+  color: #D3D3D3;
+}
+
+.navbar-default .navbar-nav > .active{
+ color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
+   color: #D3D3D3;
+   background: transparent;
+   opacity: 1;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #D3D3D3;
+}
+
+.navbar-text {
+  font-family: 'Megrim', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+#brand-image {
+  padding: 1px;
+  padding-top: 4px;
+
+}
+#brand-button {
+  margin-top: 2px;
+}
+
+#carousel-example-generic {
+  height:auto;
+  padding-top: 92px;
+}
+
+#home {
+  height: 100%;
+  margin: 5px;
+  padding-top: 40px;
+  font-family: 'Megrim', cursive;
+  font-size: 90px;
+  color: #ffffff;
+}
+
+#about .container {
+  width: 70%;
+  padding-top: 41px;
+  padding-bottom: 10px;
+  font-family: 'Poiret One', cursive;
+  color: #ffffff;
+}
+
+ .img1 {
+   width: 290px;
+   max-width: auto;
+   padding-bottom: 25px;
+   padding-top: 12px;
+   border-radius: 3px;
+   color: #ffffff;
+}
+
+#img-sec {
+margin-top: 30px;
+font-family: helvetica, sans-serif;
+color: #ffffff;
+}
+
+#whatwedo {
+  width: 320px;
+  margin: 1px;
+  padding-top: 44px;
+  padding-left: 46px;
+  margin-top: 30px;
+  margin-right: 50px;
+  font-family: 'Josefin Sans', cursive;
+  color: #ffffff;
+}
+
+#whatwedo .btn {
+  font-family: 'Josefin Sans', cursive;
+  border-radius: 20px;
+}
+#whatwedo .imga {
+  width: 400px;
+  height: 390px;
+}
+
+#advents {
+  position: relative;
+  width: 75%;
+  margin: 1px;
+  padding-top: 42px;
+  padding-left: 46px;
+  margin-top: 40px;
+  font-family: 'Baumans', cursive;
+  color: #ffffff;
+}
+
+#advents .panel {
+  background: transparent;
+  width: 350px;
+}
+
+#advents .panel:hover {
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+#services {
+  font-family: 'Nova Mono',cursive;
+  width: 350px;
+  margin: 1px;
+  margin-top: 40px;
+  padding-top: 42px;
+  padding-left: 47px;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+#reviews {
+  position: relative;
+  margin: 1px;
+  padding-top: 200px;
+  padding-left: 46px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-family: 'Just Me Again Down Here', cursive;
+}
+#reviews h1 {
+   font-family: 'Dawning of a New Day', cursive;
+}
+#reviews .tab-content{
+   font-family: 'Dawning of a New Day', cursive;
+   font-size: 60px;
+   height: 80px;
+   margin: 20px;
+   margin-top: 40px;
+   margin-right: 300px;
+}
+#reviews .tab-head {
+   font-size: 17px;
+   height: 10px;
+   width: 130px;
+   padding-bottom: 60px;
+}
+
+
+#team {
+  width: 300px;
+  margin: 1px;
+  padding-top: 80px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  font-family: 'Gruppo', crusive;
+  color: #ffffff;
+}
+
+#contact {
+  font-family: 'Bubbler One',cursive;
+  padding-top: 50px;
+  margin-top: 50px;
+  height: 450px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+#map {
+  width: 100%;
+  padding-top: 60px;
+  margin-top: 60px;
+  height: 450px;
+  margin-left: 5px;
+  margin-right: 10px;
+       }
+
+.navbar1 {
+  background: #000000;
+  padding: 10px;
+  font-size: 15px;
+}
+.navbar1 p {
+  margin-top: 20px;
+  margin: 10px 0 0 0;
+  font-family: 'Megrim',cursive;
+  color: #808080;
+}
+.navbar1 .navbar-default .navbar-nav {
+  height: 80px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #FFFFFF;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
+
+.fa {
+    color: #808080;
+    margin-top: 18px;
+    font-size: 13px;
+    padding-right: 4px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
