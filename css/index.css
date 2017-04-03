@@ -35,8 +35,10 @@ background: transparent;
 .btn-down {
 background: transparent;
 }
-
-
+.row{
+  width: 100%;
+}
+/* fixed top bar */
 .navbar {
 background: transparent;
 animation: pulse 5s;
@@ -64,6 +66,7 @@ font-family: 'Megrim', cursive;
   color: #D3D3D3;
 }
 
+/* bar menu */
 .navbar-text {
   font-family: 'Megrim', cursive;
   font-size: 32px;
@@ -71,20 +74,22 @@ font-family: 'Megrim', cursive;
   margin: 10px 0 0 0;
 }
 
+/* brand */
 #brand-image {
   padding: 1px;
   padding-top: 4px;
-
 }
 #brand-button {
   margin-top: 2px;
 }
 
+/* Carousal */
 #carousel-example-generic {
   height:auto;
   padding-top: 92px;
 }
 
+/* Tour */
 #home {
   height: 100%;
   margin: 5px;
@@ -94,14 +99,15 @@ font-family: 'Megrim', cursive;
   color: #ffffff;
 }
 
+/* About Us */
 #about .container {
   width: 70%;
+  margin-bottom: 40px;
   padding-top: 41px;
   padding-bottom: 10px;
   font-family: 'Poiret One', cursive;
   color: #ffffff;
 }
-
  .img1 {
    width: 290px;
    max-width: auto;
@@ -110,13 +116,13 @@ font-family: 'Megrim', cursive;
    border-radius: 3px;
    color: #ffffff;
 }
-
 #img-sec {
 margin-top: 30px;
 font-family: helvetica, sans-serif;
 color: #ffffff;
 }
 
+/* What We Do */
 #whatwedo {
   width: 320px;
   margin: 1px;
@@ -127,16 +133,17 @@ color: #ffffff;
   font-family: 'Josefin Sans', cursive;
   color: #ffffff;
 }
-
 #whatwedo .btn {
   font-family: 'Josefin Sans', cursive;
   border-radius: 20px;
+  color: #ffffff;
 }
-#whatwedo .imga {
-  width: 400px;
-  height: 390px;
+#whatwedo .img2 {
+  width: 290px;
+  height: 290px;
 }
 
+/* adventures  */
 #advents {
   position: relative;
   width: 75%;
@@ -154,10 +161,11 @@ color: #ffffff;
 }
 
 #advents .panel:hover {
-  transition: 1s;
-  -webkit-transition: 1s;
+  color: #808080;
+  opacity: 0.8;
 }
 
+/* services */
 #services {
   font-family: 'Nova Mono',cursive;
   width: 350px;
@@ -165,39 +173,50 @@ color: #ffffff;
   margin-top: 40px;
   padding-top: 42px;
   padding-left: 47px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
   color: #ffffff;
 }
+#services .img3 {
+  height: 225px;
+  width: 225px;
+}
+#services .img3:hover {
+  color: #808080;
+  opacity: 0.6;
+}
 
+/* reviews */
 #reviews {
-  position: relative;
   margin: 1px;
   padding-top: 200px;
   padding-left: 46px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   color: #ffffff;
   font-family: 'Just Me Again Down Here', cursive;
 }
 #reviews h1 {
    font-family: 'Dawning of a New Day', cursive;
 }
-#reviews .tab-content{
+#reviews .tab-content {
    font-family: 'Dawning of a New Day', cursive;
-   font-size: 60px;
+   font-size: 30px;
    height: 80px;
    margin: 20px;
    margin-top: 40px;
-   margin-right: 300px;
+   margin-left: 300px;
 }
 #reviews .tab-head {
    font-size: 17px;
    height: 10px;
+   margin-top: 10px;
    width: 130px;
    padding-bottom: 60px;
 }
 
-
+/* Our Team */
 #team {
+  display: inline;
   width: 300px;
   margin: 1px;
   padding-top: 80px;
@@ -209,15 +228,18 @@ color: #ffffff;
   color: #ffffff;
 }
 
+/* Connect with us  */
 #contact {
   font-family: 'Bubbler One',cursive;
   padding-top: 50px;
   margin-top: 50px;
   height: 450px;
+  margin-bottom: 30px;
   color: #ffffff;
   margin-bottom: 50px;
 }
 
+/* map alongside connect */
 #map {
   width: 100%;
   padding-top: 60px;
@@ -227,21 +249,23 @@ color: #ffffff;
   margin-right: 10px;
        }
 
+/* footer or bottom bar */
 .navbar1 {
   background: #000000;
-  padding: 10px;
+  padding: 7px;
   font-size: 15px;
 }
 .navbar1 p {
-  margin-top: 20px;
+  margin-top: 27px;
   margin: 10px 0 0 0;
   font-family: 'Megrim',cursive;
   color: #808080;
 }
-.navbar1 .navbar-default .navbar-nav {
-  height: 80px;
+.navbar1 .navbar-default .navbar- {
+  height: 30px;
 }
 
+/* fixed bar pulse */
 @keyframes pulse {
   0% {
     background-color: #FFFFFF;
@@ -251,11 +275,11 @@ color: #ffffff;
   }
 }
 
-
+/* social icons */
 .fa {
     color: #808080;
     margin-top: 18px;
-    font-size: 13px;
+    font-size: 18px;
     padding-right: 4px;
     width: 25px;
     text-align: center;
@@ -263,5 +287,6 @@ color: #ffffff;
     border-radius: 50%;
 }
 .fa:hover {
+    color: #ffffff;
     opacity: 0.7;
 }
