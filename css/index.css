@@ -10,7 +10,7 @@ transition:padding 0.2s linear;
 
 .affix-top {
 padding-top:17px;
-padding-bottom:18px;
+padding-bottom:19px;
 -webkit-transition:padding 0.5s linear;
 -moz-transition:padding 0.5s linear;
 -o-transition:padding 0.5s linear;
@@ -42,7 +42,7 @@ background: transparent;
 .navbar {
 background: transparent;
 animation: pulse 5s;
-font-size: 14px;
+font-size: 15px;
 font-family: 'Megrim', cursive;
 }
 
@@ -86,7 +86,7 @@ font-family: 'Megrim', cursive;
 /* Carousal */
 #carousel-example-generic {
   height:auto;
-  padding-top: 92px;
+  padding-top: 91px;
 }
 
 /* Tour */
@@ -142,7 +142,9 @@ color: #ffffff;
   width: 290px;
   height: 290px;
 }
-
+#whatwedo .img2:hover {
+  transform: scale(1.03);
+}
 /* adventures  */
 #advents {
   position: relative;
